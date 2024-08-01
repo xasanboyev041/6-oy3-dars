@@ -1,0 +1,95 @@
+.bgc {
+  background-color: rgba(245, 71, 73, 0.05);
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.what {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: left;
+}
+.right {
+  width: 50px;
+  height: 50px;
+  top: 2734.69px;
+  left: 1170px;
+  opacity: 0.1px;
+  color: rgba(36, 20, 21, 1);
+  background-color: rgba(245, 71, 73, 0.1);
+  border-radius: 50%;
+  border: none;
+}
+.left {
+  width: 50px;
+  height: 50px;
+  top: 2734.69px;
+  left: 1170px;
+  opacity: 0.1px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(245, 71, 73, 1);
+  border-radius: 50%;
+  border: none;
+  margin-left: 20px;
+}
+.wrapper-customer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.our-customer {
+  width: 400px;
+}
+.wrapper-customer-site {
+  /* width: 360px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-text {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgba(36, 20, 21, 0.6);
+}
+.about-customer {
+  width: 360px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.wrapper-job {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding-top: 10px;
+}
+.thebuyer {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(36, 20, 21, 1);
+}
+.faunder {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(36, 20, 21, 0.6);
+}
